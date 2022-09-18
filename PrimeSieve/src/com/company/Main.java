@@ -3,6 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        EratosthenesPrimeSieve eratosthenesPrimeSieve = new EratosthenesPrimeSieve(120);
+        eratosthenesPrimeSieve.printPrimes();
     }
 }
