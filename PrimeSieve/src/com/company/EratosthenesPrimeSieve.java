@@ -19,6 +19,11 @@ public class EratosthenesPrimeSieve implements PrimeSieve{
 
     @Override
     public void printPrimes() {
+        for(int i = 2; i <= max; i++){
+            if(isPrime(i) == true) {
+                System.out.println(i);
+            }
+        }
     }
 
     public ArrayList<Boolean> siev(){
