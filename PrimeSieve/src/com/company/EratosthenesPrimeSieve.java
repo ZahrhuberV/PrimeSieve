@@ -14,6 +14,9 @@ public class EratosthenesPrimeSieve implements PrimeSieve{
 
     @Override
     public boolean isPrime(int p) {
+        if(primes.get(p) == true) {
+            return true;
+        }
         return false;
     }
 
